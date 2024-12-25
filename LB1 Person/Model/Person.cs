@@ -30,7 +30,7 @@ namespace Model
         /// <summary>
         /// Пол человека.
         /// </summary>
-        public string _gender;
+        public string _sex;
 
         /// <summary>
         /// Имя
@@ -104,7 +104,7 @@ namespace Model
             Name = name;
             Surname = surname;
             Age = age;
-            Sex = Sex;
+            Sex = gender;
 
         }
 
@@ -225,7 +225,7 @@ namespace Model
         public string GetInfo()
         {
             return $"Name: {Name}, Surname: {Surname}," +
-               $" Age: {Age}, Gender: {Sex} ";
+               $" Age: {Age}, Sex: {Sex} ";
         }
 
 

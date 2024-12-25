@@ -56,7 +56,7 @@ namespace LB1_Person
 
             Console.WriteLine("\nШаг 3. Добавление нового человека в первый список");
             Console.ReadKey();
-            list1.AddPerson(new Person("Никита", "Семенов", 23, Gender.Male));
+            list1.AddPerson(new Person("Никита", "Семенов", 23, Sex.Male));
             Console.WriteLine("\nList № 1");
             int count3 = list1.CountPersonInList();
             for (int i = 0; i < count3; i++)
